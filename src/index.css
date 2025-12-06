@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+:root {
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
