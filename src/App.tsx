@@ -8,7 +8,10 @@ export default function App() {
   return (
     <main className="grid h-screen grid-rows-[auto_1fr] bg-slate-50 font-stretch-semi-condensed">
       <div className="m-auto flex max-w-200 flex-wrap items-center justify-around gap-4 p-10">
-        <h1 className="block w-fit border-0 pr-4 text-center text-8xl font-bold font-stretch-ultra-condensed sm:border-b-8 md:border-0 md:border-r-8">
+        <h1
+          className="block w-fit border-0 pr-4 text-center text-8xl font-bold font-stretch-ultra-condensed sm:border-b-8 md:border-0 md:border-r-8"
+          aria-label="Task List"
+        >
           Task{' '}
           <span className="inline-block border-b-8 sm:border-0">
             <span className="m-2 inline-block -rotate-30 pr-2 text-green-800 sm:pl-3">L</span>ist
@@ -47,7 +50,7 @@ export default function App() {
                 </button>
                 <button
                   className="my-3 cursor-pointer rounded-xl border px-5 transition duration-150 hover:bg-stone-700 active:translate-0.5 aria-pressed:bg-white aria-pressed:text-black aria-pressed:hover:bg-stone-300"
-                  aria-label="Show All Tasks"
+                  aria-label="Show Active Tasks"
                   aria-pressed="false"
                 >
                   Active
