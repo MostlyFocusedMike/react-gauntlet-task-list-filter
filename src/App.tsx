@@ -9,12 +9,12 @@ export default function App() {
     <main className="grid h-screen grid-rows-[auto_1fr] bg-slate-50 font-stretch-semi-condensed">
       <div className="m-auto flex max-w-200 flex-wrap items-center justify-around gap-4 p-10">
         <h1
-          className="block w-fit border-0 pr-4 text-center text-8xl font-bold font-stretch-ultra-condensed sm:border-b-8 md:border-0 md:border-r-8"
+          className="block w-fit border-0 pr-4 text-center text-8xl font-bold font-stretch-ultra-condensed"
           aria-label="Task List"
         >
           Task{' '}
-          <span className="inline-block border-b-8 sm:border-0">
-            <span className="m-2 inline-block -rotate-30 pr-2 text-green-800 sm:pl-3">L</span>ist
+          <span className="inline-block">
+            <span className="m-2 inline-block -rotate-30 pr-2 pl-3 text-green-800">L</span>ist
           </span>
         </h1>
         <form className="w-fit border p-2 text-center shadow-[5px_5px_0px_0px_rgb(0,0,0,1)]" onSubmit={handleSubmit}>
@@ -73,7 +73,7 @@ export default function App() {
                   <input type="checkbox" className="peer m-2 h-6 w-6" />
                   Go To Store
                 </label>
-                {/* <input type="text" className="m-2 w-80 bg-stone-200 px-2 py-1" /> */}
+                {/* <input type="text" className="m-2 w-80 bg-stone-200 px-2 py-1 text-black" /> */}
                 <hr className="border-0.5" />
                 <div className="flex justify-between gap-2 px-2">
                   <button

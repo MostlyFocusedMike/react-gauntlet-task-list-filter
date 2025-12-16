@@ -22,5 +22,7 @@ A user:
 - Can check tasks off to mark them complete
 - Can Delete (as in fully remove) a task
 - Click through to see the 3 states: all tasks, active tasks, and done tasks
-- Edit the text of any tas
-  k
+- Will see the remaining tasks in that filter
+- Edit the text of any task by clicking "Edit" button (this will turn the checkbox into an text input)
+- Will see the "Edit" button become "Finish Editing" when actively editing the task
+- Can press enter to return the edit input back to a checkbox simply by pressing enter while focused on the input
